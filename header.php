@@ -25,6 +25,15 @@ $page_title = $page_title ?? 'Vittasetu | Smart Loan Solutions';
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+<div class="announce-bar">
+    <div class="container announce-bar-inner">
+        <span><i class="fa-solid fa-circle-check"></i> RBI Registered Partners</span>
+        <span class="announce-divider">|</span>
+        <span><i class="fa-solid fa-phone"></i> <a href="tel:+919831040460">+91 9831040460</a></span>
+        <span class="announce-divider">|</span>
+        <span><i class="fa-solid fa-envelope"></i> <a href="mailto:contact@vittasetu.co.in">contact@vittasetu.co.in</a></span>
+    </div>
+</div>
 <header class="site-header">
     <div class="container header-wrap">
         <a href="index.php" class="brand" aria-label="Vittasetu home">

@@ -48,11 +48,17 @@ include __DIR__ . '/header.php';
             <div class="grid-2 hero-layout hero-layout-centered">
                 <div class="hero-copy">
                     <span class="eyebrow">RBI Registered Partners | Fast Loan Support</span>
-                    <h1>Your Trusted Partner for Smart Financial Solutions</h1>
+                    <h1>Your Trusted Partner for <span class="hero-gradient-text">Smart Financial Solutions</span></h1>
                     <p class="hero-copy-lead">At Vittasetu Services Private Limited, we understand your financial needs and deliver customized funding and advisory solutions at the lowest possible cost.</p>
                     <div class="hero-actions hero-actions-primary">
                         <a href="#apply" class="btn btn-primary">Apply Now</a>
                         <a href="#contact" class="btn btn-secondary">Contact Us</a>
+                    </div>
+                    <div class="hero-ticker">
+                        <div class="hero-ticker-item"><i class="fa-solid fa-circle-check"></i> RBI Registered Partners</div>
+                        <div class="hero-ticker-item"><i class="fa-solid fa-circle-check"></i> 12+ Years Expertise</div>
+                        <div class="hero-ticker-item"><i class="fa-solid fa-circle-check"></i> Zero Hidden Charges</div>
+                        <div class="hero-ticker-item"><i class="fa-solid fa-circle-check"></i> 48-Hour Response</div>
                     </div>
                 </div>
                 <div class="hero-form-wrap">
@@ -99,6 +105,29 @@ include __DIR__ . '/header.php';
                             <span class="info-chip">Low EMI Options</span>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" style="padding-top:0; padding-bottom:60px;">
+        <div class="container">
+            <div class="stat-bar">
+                <div class="stat-bar-item">
+                    <span class="stat-bar-number" data-target="12" data-suffix="+">12+</span>
+                    <span class="stat-bar-label">Years Experience</span>
+                </div>
+                <div class="stat-bar-item">
+                    <span class="stat-bar-number" data-target="500" data-suffix="+">500+</span>
+                    <span class="stat-bar-label">Clients Served</span>
+                </div>
+                <div class="stat-bar-item">
+                    <span class="stat-bar-number" data-target="7" data-suffix="+">7+</span>
+                    <span class="stat-bar-label">Financial Services</span>
+                </div>
+                <div class="stat-bar-item">
+                    <span class="stat-bar-number" data-target="98" data-suffix="%">98%</span>
+                    <span class="stat-bar-label">Client Satisfaction</span>
                 </div>
             </div>
         </div>
@@ -262,22 +291,22 @@ include __DIR__ . '/header.php';
             </div>
             <div class="steps-grid">
                 <div class="card process-card">
-                    <div class="info-chip process-step-chip">Step 1</div>
+                    <div class="process-step-number">01</div>
                     <h3>Share Your Requirement</h3>
                     <p class="mb-0">Tell us your financial or funding needs.</p>
                 </div>
                 <div class="card process-card">
-                    <div class="info-chip process-step-chip">Step 2</div>
+                    <div class="process-step-number">02</div>
                     <h3>Expert Analysis</h3>
                     <p class="mb-0">Our experts evaluate and design the best solution.</p>
                 </div>
                 <div class="card process-card">
-                    <div class="info-chip process-step-chip">Step 3</div>
+                    <div class="process-step-number">03</div>
                     <h3>Documentation &amp; Processing</h3>
                     <p class="mb-0">Smooth handling of all formalities.</p>
                 </div>
                 <div class="card process-card">
-                    <div class="info-chip process-step-chip">Step 4</div>
+                    <div class="process-step-number">04</div>
                     <h3>Approval &amp; Execution</h3>
                     <p class="mb-0">Quick disbursal and implementation.</p>
                 </div>
@@ -305,7 +334,7 @@ include __DIR__ . '/header.php';
                             </div>
                         </div>
                         <div class="testimonial-content">
-                            <span class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                            <span class="testimonial-stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span>
                             <p class="testimonial-quote">"Vittasetu helped us secure funding quickly at a very competitive rate. Highly professional team!"</p>
                         </div>
                     </article>
@@ -321,7 +350,7 @@ include __DIR__ . '/header.php';
                             </div>
                         </div>
                         <div class="testimonial-content">
-                            <span class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                            <span class="testimonial-stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span>
                             <p class="testimonial-quote">"Excellent financial guidance and transparency throughout the process."</p>
                         </div>
                     </article>
@@ -337,7 +366,7 @@ include __DIR__ . '/header.php';
                             </div>
                         </div>
                         <div class="testimonial-content">
-                            <span class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                            <span class="testimonial-stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span>
                             <p class="testimonial-quote">"Their team made complex financial planning simple and easy to understand. Great experience working with them."</p>
                         </div>
                     </article>
@@ -353,7 +382,7 @@ include __DIR__ . '/header.php';
                             </div>
                         </div>
                         <div class="testimonial-content">
-                            <span class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                            <span class="testimonial-stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span>
                             <p class="testimonial-quote">"Fast processing, professional communication, and genuine financial advice. Highly recommended."</p>
                         </div>
                     </article>
@@ -369,7 +398,7 @@ include __DIR__ . '/header.php';
                             </div>
                         </div>
                         <div class="testimonial-content">
-                            <span class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                            <span class="testimonial-stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span>
                             <p class="testimonial-quote">"Very supportive team with deep financial expertise. They guided us throughout the funding journey smoothly."</p>
                         </div>
                     </article>

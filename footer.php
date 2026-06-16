@@ -14,10 +14,12 @@
                     <a href="#top" class="brand footer-brand" aria-label="Vittasetu footer logo">
                         <span class="brand-mark brand-logo-img"><img src="img/v-logo-removebg-preview.png" alt="Vittasetu logo"></span>
                     </a>
+                    <p class="footer-brand-tagline">Trusted Financial Advisory</p>
                     <p>Trusted financial consulting and funding support with transparent advisory service for individuals and businesses.</p>
                     <div class="footer-trust-row">
-                        <span><strong>CA</strong> Led Advisory</span>
-                        <span><strong>Fast</strong> Support</span>
+                        <span><i class="fa-solid fa-shield-halved"></i> <strong>CA</strong> Led Advisory</span>
+                        <span><i class="fa-solid fa-bolt"></i> <strong>Fast</strong> Support</span>
+                        <span><i class="fa-solid fa-lock"></i> <strong>100%</strong> Secure</span>
                     </div>
                     <div class="footer-socials">
                         <a href="https://wa.me/919831040460" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
