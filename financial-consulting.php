@@ -33,7 +33,7 @@ include __DIR__ . '/header.php';
                     <p>We help businesses and individuals make informed financial decisions with strategic consulting services tailored to their goals. Our expert advisors analyze your financial position and create customized strategies for sustainable growth and profitability.</p>
                     <div class="btn-row service-detail-actions">
                         <a href="contact.php" class="btn btn-primary">Get Consultation</a>
-                        <a href="products.php" class="btn btn-secondary">View All Services</a>
+                        <a href="need-loan.php" class="btn btn-secondary">Need a Loan?</a>
                     </div>
                 </div>
                 <div class="media-frame service-detail-media">
@@ -169,8 +169,9 @@ include __DIR__ . '/header.php';
                         <span class="eyebrow">Why Choose Vittasetu</span>
                         <h2>Expert financial strategies for long-term stability and business growth</h2>
                         <p>Our team combines industry expertise with practical financial strategies to help clients achieve long-term financial stability and business growth.</p>
-                        <div class="hero-actions cta-actions">
+                        <div class="hero-actions cta-actions" style="display: flex; gap: 15px; flex-wrap: wrap;">
                             <a href="contact.php" class="btn btn-primary">Get Consultation</a>
+                            <a href="need-loan.php" class="btn btn-secondary">Need a Loan?</a>
                         </div>
                     </div>
                     <div class="media-frame cta-main-media product-cta-media">

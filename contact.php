@@ -151,7 +151,7 @@ include __DIR__ . '/header.php';
                         <span class="eyebrow">Business Hours</span>
                         <h2>We are available to assist you</h2>
                         <div class="hours-list">
-                            <div class="hours-row"><strong>Monday - Saturday</strong><span>10 AM - 7 PM</span></div>
+                            <div class="hours-row"><strong>Monday - Saturday</strong><span>11 AM - 7 PM</span></div>
                             <div class="hours-row"><strong>Sunday</strong><span>Closed</span></div>
                         </div>
                     </div>

@@ -32,7 +32,7 @@ include __DIR__ . '/header.php';
 
             <div class="grid-2" style="align-items:center;">
                 <div class="card" style="padding:30px;">
-                    <p>Vittasetu Services Private Limited is a modern financial consulting firm committed to delivering reliable, transparent, and customized financial solutions. Established in 2025, we bring together a team of seasoned Chartered Accountants and Company Secretaries with over 12 years of experience in SME and corporate banking.</p>
+                    <p>Vittasetu Services Private Limited is a modern financial consulting company committed to delivering reliable, transparent, and customized financial solutions. Established in 2025, we bring together a team of seasoned Chartered Accountants and Company Secretaries with over 12 years of experience in SME and corporate banking.</p>
                     <div class="btn-row" style="margin-top:18px;">
                         <span class="info-chip">Established in 2025</span>
                         <span class="info-chip">12+ Years Experience</span>
@@ -73,11 +73,7 @@ include __DIR__ . '/header.php';
                 <p>Our leadership team brings together expertise in financial consulting, corporate finance, compliance management, and operational coordination to deliver seamless advisory and funding support.</p>
             </div>
 
-            <div class="leadership-slider-wrap">
-                <button type="button" class="leadership-slider-btn leadership-slider-prev" aria-label="Previous leadership profile">
-                    <i class="fa-solid fa-chevron-left"></i>
-                </button>
-                <div class="leadership-profile-grid leadership-card-grid">
+            <div class="leadership-profile-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 40px; max-width: 900px; margin: 40px auto 0;">
                     <article class="card leadership-profile-card leadership-member-card">
                     <div class="leadership-profile-image">
                         <img src="img/shristhi.jpeg" alt="Srishti Mishra Director Vittasetu Services Private Limited">
@@ -96,7 +92,8 @@ include __DIR__ . '/header.php';
                         <button type="button" class="blog-readmore leadership-readmore">Know More</button>
                     </div>
                 </article>
-                <article class="card leadership-profile-card leadership-member-card">
+                <!-- 
+                <article class="card leadership-profile-card leadership-member-card" style="display: none;">
                     <div class="leadership-profile-image">
                         <img src="img/shweta.jpeg" alt="Shweta Gupta Director Vittasetu">
                     </div>
@@ -114,6 +111,7 @@ include __DIR__ . '/header.php';
                         <button type="button" class="blog-readmore leadership-readmore">Know More</button>
                     </div>
                 </article>
+                -->
 
                 <article class="card leadership-profile-card leadership-member-card">
                     <div class="leadership-profile-image">
@@ -131,7 +129,8 @@ include __DIR__ . '/header.php';
                     </div>
                 </article>
 
-                <article class="card leadership-profile-card leadership-member-card">
+                <!--
+                <article class="card leadership-profile-card leadership-member-card" style="display: none;">
                     <div class="leadership-profile-image">
                         <img src="img/ca-pawan.jpeg" alt="CA Pawan Gupta Operations Head Vittasetu">
                     </div>
@@ -146,12 +145,9 @@ include __DIR__ . '/header.php';
                         <button type="button" class="blog-readmore leadership-readmore">Know More</button>
                     </div>
                 </article>
+                -->
 
                 
-                </div>
-                <button type="button" class="leadership-slider-btn leadership-slider-next" aria-label="Next leadership profile">
-                    <i class="fa-solid fa-chevron-right"></i>
-                </button>
             </div>
         </div>
     </section>

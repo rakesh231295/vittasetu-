@@ -32,8 +32,9 @@
                     <h3>Quick Links</h3>
                     <div class="footer-links">
                         <a href="index.php">Home</a>
-                        <a href="index.php#about">About Us</a>
-                        <a href="index.php#products">Our Products</a>
+                        <a href="about.php">About Us</a>
+                        <a href="products.php">Our Products</a>
+                        <a href="need-loan.php">Need Loans</a>
                         <a href="calculator.php">Calculator</a>
                         <a href="blog.php">Blog</a>
                     </div>
@@ -45,7 +46,8 @@
                         <a href="financial-consulting.php">Financial Consulting</a>
                         <a href="funding-solutions.php">Funding Solutions</a>
                         <a href="investment-wealth-management.php">Investment &amp; Wealth</a>
-                        <a href="virtual-cfo.php">Virtual CFO</a>
+                        <a href="virtual-services.php">Virtual CFO</a>
+                        <a href="real-estate-counsulting.php">Real Estate Advisory</a>
                     </div>
                 </div>
 

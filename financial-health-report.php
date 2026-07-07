@@ -43,42 +43,290 @@ include __DIR__ . '/header.php';
         </div>
     </section>
 
-    <section class="section service-list-section">
-        <div class="container">
-            <div class="section-title section-title-center">
-                <span class="eyebrow">Report Includes</span>
-                <h2>Clear insights into performance, cash flow, risk, and opportunities</h2>
+<style>
+.health-summary-section {
+    background: #f4f7f9;
+    padding: 80px 0;
+    text-align: center;
+}
+.health-summary-section h2 {
+    color: #1a2a40;
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+.health-summary-section > p {
+    color: #555;
+    font-size: 1.1rem;
+    margin-bottom: 50px;
+}
+.health-dashboard-wrapper {
+    position: relative;
+    max-width: 1100px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 300px 1fr;
+    gap: 30px;
+    align-items: center;
+}
+@media (max-width: 991px) {
+    .health-dashboard-wrapper {
+        grid-template-columns: 1fr;
+    }
+    .health-center-image {
+        display: none;
+    }
+}
+.health-cards-column {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.health-card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.03);
+    text-align: left;
+    border: 2px solid transparent;
+}
+.health-card.border-green { border-color: #28a745; }
+.health-card.border-red { border-color: #dc3545; }
+.health-card.border-orange { border-color: #fd7e14; }
+.health-card.border-blue { border-color: #0056b3; }
+
+.health-card-header {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+.health-card-icon {
+    width: 40px;
+    height: 40px;
+    background: #f8f9fa;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+    color: #333;
+}
+.health-card-title {
+    font-size: 0.95rem;
+    font-weight: 800;
+    color: #1a2a40;
+    margin: 0 0 5px 0;
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+.health-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 3px 10px;
+    border-radius: 20px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: #fff;
+}
+.health-badge.badge-green { background: #28a745; }
+.health-badge.badge-red { background: #dc3545; }
+.health-badge.badge-orange { background: #fd7e14; }
+.health-badge.badge-blue { background: #0056b3; }
+
+.health-card p {
+    font-size: 0.85rem;
+    color: #555;
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+.health-card-link {
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+}
+.health-card-link.link-green { color: #28a745; }
+.health-card-link.link-red { color: #dc3545; }
+.health-card-link.link-orange { color: #fd7e14; }
+
+.health-footer-summary {
+    background: #fff;
+    max-width: 900px;
+    margin: 50px auto 0;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.03);
+}
+.health-footer-summary h3 {
+    text-align: center;
+    font-size: 1.1rem;
+    color: #1a2a40;
+    margin-bottom: 30px;
+    position: relative;
+    font-weight: 700;
+}
+.health-footer-summary h3::before, .health-footer-summary h3::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 32%;
+    height: 1px;
+    background: #e0e0e0;
+}
+.health-footer-summary h3::before { left: 0; }
+.health-footer-summary h3::after { right: 0; }
+
+.health-footer-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    text-align: center;
+}
+@media (max-width: 768px) {
+    .health-footer-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+}
+.health-footer-item i {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+.health-footer-item h4 {
+    font-size: 0.9rem;
+    font-weight: 800;
+    margin-bottom: 5px;
+    color: #1a2a40;
+}
+.health-footer-item p {
+    font-size: 0.8rem;
+    color: #666;
+    margin: 0;
+}
+</style>
+
+<section class="section health-summary-section">
+    <div class="container">
+        <h2>Health Summary & Synopsis</h2>
+        <p>A 360° view of your financial health, risk posture and compliance status<br>to drive informed decisions and sustainable growth.</p>
+        
+        <div class="health-dashboard-wrapper">
+            <!-- Left Column -->
+            <div class="health-cards-column">
+                <div class="health-card border-green">
+                    <div class="health-card-header">
+                        <div class="health-card-icon"><i class="fa-solid fa-file-contract"></i></div>
+                        <div>
+                            <h3 class="health-card-title">Bureau Check</h3>
+                            <span class="health-badge badge-green"><i class="fa-solid fa-check"></i> GOOD</span>
+                        </div>
+                    </div>
+                    <p>Healthy performance, but regular monitoring is required to sustain results.</p>
+                    <a href="#" class="health-card-link link-green">Keep the Good Work <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                
+                <div class="health-card border-red">
+                    <div class="health-card-header">
+                        <div class="health-card-icon"><i class="fa-solid fa-piggy-bank" style="color:#dc3545;"></i></div>
+                        <div>
+                            <h3 class="health-card-title">Emergency &<br>Sinking Fund Provision</h3>
+                            <span class="health-badge badge-red"><i class="fa-solid fa-circle-exclamation"></i> BAD</span>
+                        </div>
+                    </div>
+                    <p>Please consult financial experts immediately to address critical issues.</p>
+                    <a href="#" class="health-card-link link-red">Watchout <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+
+                <div class="health-card border-green">
+                    <div class="health-card-header">
+                        <div class="health-card-icon"><i class="fa-solid fa-file-shield"></i></div>
+                        <div>
+                            <h3 class="health-card-title">Regulatory<br>Compliances</h3>
+                            <span class="health-badge badge-green"><i class="fa-solid fa-check-double"></i> FULLY COMPLIANT</span>
+                        </div>
+                    </div>
+                    <p>Outstanding compliance and governance, keep maintaining this discipline.</p>
+                    <a href="#" class="health-card-link link-green">Keep the Good Work <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
             </div>
 
-            <div class="service-detail-grid">
-                <div class="card service-detail-card">
-                    <i class="fa-solid fa-chart-simple"></i>
-                    <h3>Financial Performance Review</h3>
-                    <p class="mb-0">Assess financial performance with clear observations and practical analysis.</p>
+            <!-- Center Image -->
+            <div class="health-center-image">
+                <!-- Using placeholder image to represent the central figure from mockup -->
+                <img src="img/14.jpg" alt="Financial Advisor" style="border-radius: 20px; object-fit: cover; height: 500px; width: 100%; box-shadow: 0 10px 30px rgba(0,0,0,0.1);">
+            </div>
+
+            <!-- Right Column -->
+            <div class="health-cards-column">
+                <div class="health-card border-blue">
+                    <div class="health-card-header">
+                        <div class="health-card-icon"><i class="fa-solid fa-scale-balanced" style="color:#0056b3;"></i></div>
+                        <div>
+                            <h3 class="health-card-title">Financial Position</h3>
+                            <span class="health-badge badge-green"><i class="fa-solid fa-check"></i> GOOD</span>
+                        </div>
+                    </div>
+                    <p>Healthy performance, but regular monitoring is required to sustain results.</p>
+                    <a href="#" class="health-card-link link-green">Keep the Good Work <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
-                <div class="card service-detail-card">
-                    <i class="fa-solid fa-money-bill-wave"></i>
-                    <h3>Cash Flow Analysis</h3>
-                    <p class="mb-0">Understand cash movement, liquidity patterns, and working capital health.</p>
+
+                <div class="health-card border-orange">
+                    <div class="health-card-header">
+                        <div class="health-card-icon"><i class="fa-solid fa-gauge-high"></i></div>
+                        <div>
+                            <h3 class="health-card-title">Key Performance<br>Indicator</h3>
+                            <span class="health-badge badge-orange"><i class="fa-solid fa-minus"></i> AVERAGE</span>
+                        </div>
+                    </div>
+                    <p>Performance is acceptable but needs improvement; strengthen key areas.</p>
+                    <a href="#" class="health-card-link link-orange">Take Corrective Actions <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
-                <div class="card service-detail-card">
-                    <i class="fa-solid fa-triangle-exclamation"></i>
-                    <h3>Risk Identification</h3>
-                    <p class="mb-0">Identify financial risks and areas that need attention before they grow.</p>
-                </div>
-                <div class="card service-detail-card">
-                    <i class="fa-solid fa-arrow-trend-up"></i>
-                    <h3>Profitability Insights</h3>
-                    <p class="mb-0">Review profitability drivers and opportunities to improve financial results.</p>
-                </div>
-                <div class="card service-detail-card">
-                    <i class="fa-solid fa-list-check"></i>
-                    <h3>Improvement Recommendations</h3>
-                    <p class="mb-0">Receive actionable recommendations that support better financial planning.</p>
+
+                <div class="health-card border-blue">
+                    <div class="health-card-header">
+                        <div class="health-card-icon"><i class="fa-solid fa-shield-halved" style="color:#0056b3;"></i></div>
+                        <div>
+                            <h3 class="health-card-title">Credit Exposure<br>Risk</h3>
+                            <span class="health-badge badge-green"><i class="fa-solid fa-check"></i> GOOD</span>
+                        </div>
+                    </div>
+                    <p>Healthy performance, but regular monitoring is required to sustain results.</p>
+                    <a href="#" class="health-card-link link-green">Keep the Good Work <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
             </div>
         </div>
-    </section>
+
+        <div class="health-footer-summary">
+            <h3>What This Means for You?</h3>
+            <div class="health-footer-grid">
+                <div class="health-footer-item">
+                    <i class="fa-solid fa-desktop" style="color:#0056b3;"></i>
+                    <h4>Continuous Monitoring</h4>
+                    <p>Track metrics regularly</p>
+                </div>
+                <div class="health-footer-item">
+                    <i class="fa-solid fa-shield-cat" style="color:#28a745;"></i>
+                    <h4>Risk Mitigation</h4>
+                    <p>Strengthen weak areas</p>
+                </div>
+                <div class="health-footer-item">
+                    <i class="fa-solid fa-arrow-trend-up" style="color:#fd7e14;"></i>
+                    <h4>Better Decisions</h4>
+                    <p>Data-driven insights</p>
+                </div>
+                <div class="health-footer-item">
+                    <i class="fa-solid fa-users-gear" style="color:#0056b3;"></i>
+                    <h4>Sustainable Growth</h4>
+                    <p>Build long-term value</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
     <section class="section service-benefits-section">
         <div class="container">

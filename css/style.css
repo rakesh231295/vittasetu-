@@ -33,9 +33,9 @@ body {
     font-family: 'Manrope', sans-serif;
     color: var(--text);
     background:
-        radial-gradient(circle at top left, rgba(13, 45, 107, 0.28), transparent 30%),
-        radial-gradient(circle at top right, rgba(201, 162, 39, 0.07), transparent 28%),
-        linear-gradient(180deg, #06080f 0%, #070b18 50%, #08101f 100%);
+        radial-gradient(circle at top left, rgba(35, 75, 150, 0.35), transparent 40%),
+        radial-gradient(circle at top right, rgba(201, 162, 39, 0.15), transparent 35%),
+        linear-gradient(180deg, #0b1528 0%, #101c36 50%, #152445 100%);
     line-height: 1.6;
     overflow-x: hidden;
     padding-top: 122px;
@@ -1780,9 +1780,9 @@ p {
 
 .leadership-member-card .leadership-profile-image {
     width: 100% !important;
-    height: 260px !important;
-    min-height: 260px !important;
-    max-height: 260px !important;
+    height: 360px !important;
+    min-height: 360px !important;
+    max-height: 360px !important;
     border-radius: 20px !important;
     overflow: hidden !important;
     background: var(--panel-soft) !important;
@@ -1792,7 +1792,7 @@ p {
     width: 100% !important;
     height: 100% !important;
     object-fit: cover !important;
-    object-position: center !important;
+    object-position: top center !important;
     display: block !important;
 }
 

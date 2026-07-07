@@ -40,6 +40,7 @@ $page_title = $page_title ?? 'Vittasetu | Smart Loan Solutions';
             <span class="brand-mark brand-logo-img"><img src="img/v-logo-removebg-preview.png" alt="Vittasetu logo"></span>
         </a>
         <nav class="site-nav" aria-label="Primary navigation">
+            <a href="index.php">Home</a>
             <a href="about.php">About</a>
             <div class="nav-dropdown">
                 <a href="products.php" class="nav-dropdown-toggle">Products <i class="fa-solid fa-chevron-down"></i></a>
@@ -52,8 +53,10 @@ $page_title = $page_title ?? 'Vittasetu | Smart Loan Solutions';
                     <a href="bookkeeping-financial-modelling.php">Bookkeeping &amp; Financial Modelling</a>
                     <a href="virtual-services.php">Virtual CFO Services</a>
                     <a href="financial-health-report.php">Financial Health Report</a>
+                    <a href="real-estate-counsulting.php">Real Estate Advisory</a>
                 </div>
             </div>
+            <a href="need-loan.php">Need Loans</a>
             <a href="calculator.php">Calculator</a>
             <a href="blog.php">Blog</a>
             <!-- <a href="#testimonials">Testimonials</a> -->
@@ -64,10 +67,11 @@ $page_title = $page_title ?? 'Vittasetu | Smart Loan Solutions';
             <span></span>
             <span></span>
         </button>
-        <a href="#apply" class="nav-cta">Apply Now</a>
+        <a href="contact.php" class="nav-cta">Apply Now</a>
     </div>
     <div class="mobile-menu" data-mobile-menu>
         <div class="container mobile-menu-inner">
+            <a href="index.php">Home</a>
             <a href="about.php">About</a>
             <a href="products.php">Products</a>
             <a href="financial-consulting.php" class="mobile-sub-link">Financial Consulting</a>
@@ -77,10 +81,12 @@ $page_title = $page_title ?? 'Vittasetu | Smart Loan Solutions';
             <a href="bookkeeping-financial-modelling.php" class="mobile-sub-link">Bookkeeping &amp; Financial Modelling</a>
             <a href="virtual-services.php" class="mobile-sub-link">Virtual CFO Services</a>
             <a href="financial-health-report.php" class="mobile-sub-link">Financial Health Report</a>
+            <a href="real-estate-counsulting.php" class="mobile-sub-link">Real Estate Advisory</a>
+            <a href="need-loan.php">Need Loans</a>
             <a href="calculator.php">Calculator</a>
             <a href="blog.php">Blog</a>
             <a href="contact.php">Contact</a>
-            <a href="index.php#apply" class="mobile-menu-cta">Apply Now</a>
+            <a href="contact.php" class="mobile-menu-cta">Apply Now</a>
         </div>
     </div>
 </header>
