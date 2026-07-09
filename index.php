@@ -209,7 +209,7 @@ include __DIR__ . '/header.php';
                 </article>
                 <article class="card service-card">
                     <div class="media-frame service-media">
-                        <img src="img/10.jpg" alt="Internal audits and compliance service">
+                        <img src="img/InternalAuditsCompliance.png" alt="Internal audits and compliance service">
                     </div>
                     <h3>Internal Audits &amp; Compliance</h3>
                     <p class="mb-0">Ensure financial accuracy and regulatory compliance.</p>
@@ -217,7 +217,7 @@ include __DIR__ . '/header.php';
                 </article>
                 <article class="card service-card">
                     <div class="media-frame service-media">
-                        <img src="img/11.jpg" alt="Bookkeeping and financial modelling service">
+                        <img src="img/BookkeepingModelling.png" alt="Bookkeeping and financial modelling service">
                     </div>
                     <h3>Bookkeeping &amp; Financial Modelling</h3>
                     <p class="mb-0">Accurate records and data-driven financial insights.</p>
@@ -225,7 +225,7 @@ include __DIR__ . '/header.php';
                 </article>
                 <article class="card service-card">
                     <div class="media-frame service-media">
-                        <img src="img/12.jpg" alt="Virtual CFO service">
+                        <img src="img/VirtualCFOServices.png" alt="Virtual CFO service">
                     </div>
                     <h3>Virtual CFO Services</h3>
                     <p class="mb-0">Professional CFO-level financial guidance to improve profitability and financial planning.</p>
@@ -233,7 +233,7 @@ include __DIR__ . '/header.php';
                 </article>
                 <article class="card service-card service-card-hidden" data-extra-service hidden>
                     <div class="media-frame service-media">
-                        <img src="img/13.jpg" alt="Financial health report service">
+                        <img src="img/FinancialHealthReport.png" alt="Financial health report service">
                     </div>
                     <h3>Financial Health Report</h3>
                     <p class="mb-0">Detailed financial analysis with actionable business insights.</p>
@@ -420,7 +420,7 @@ include __DIR__ . '/header.php';
                     </div>
                     <div class="cta-visuals">
                         <div class="media-frame cta-main-media">
-                            <img src="img/16.jpg" alt="Loan consultation and quick approval support">
+                            <img src="img/need.png" alt="Loan consultation and quick approval support">
                             <div class="floating-badge cta-badge">
                                 <strong class="cta-badge-title">Quick Loan Assistance</strong>
                                 <p class="cta-badge-copy">Guided support from application to final disbursal with transparent expert help.</p>

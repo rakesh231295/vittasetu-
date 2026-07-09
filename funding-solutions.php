@@ -6,7 +6,7 @@ include __DIR__ . '/header.php';
 <main id="top" class="landing-page inner-page service-detail-page">
     <section class="section page-hero">
         <div class="page-hero-banner">
-            <img src="img/8.jpg" alt="Funding solutions and business loan support">
+            <img src="img/FundingSolutionsBreadcrumb.png" alt="Funding solutions and business loan support">
             <div class="page-hero-overlay">
                 <div class="container">
                     <div class="page-hero-center">
@@ -174,7 +174,7 @@ include __DIR__ . '/header.php';
                         </div>
                     </div>
                     <div class="media-frame cta-main-media product-cta-media">
-                        <img src="img/16.jpg" alt="Business funding approval and financial assistance">
+                        <img src="img/Reliable.png" alt="Business funding approval and financial assistance">
                     </div>
                 </div>
             </div>

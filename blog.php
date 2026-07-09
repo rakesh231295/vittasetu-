@@ -43,7 +43,7 @@ include __DIR__ . '/header.php';
 <main id="top" class="landing-page inner-page">
     <section class="section page-hero">
         <div class="page-hero-banner">
-            <img src="img/3.jpg" alt="Vittasetu financial blog insights">
+            <img src="img/blog-breadcrumb.png" alt="Vittasetu financial blog insights">
             <div class="page-hero-overlay">
                 <div class="container">
                     <div class="page-hero-center">

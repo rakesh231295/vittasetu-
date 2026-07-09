@@ -75,7 +75,7 @@ include __DIR__ . '/header.php';
 
                 <article class="card product-card product-card-home">
                     <div class="media-frame product-media product-media-home">
-                        <img src="img/10.jpg" alt="Internal audits and compliance service">
+                        <img src="img/InternalAuditsCompliance.png" alt="Internal audits and compliance service">
                     </div>
                     <h3>Internal Audits &amp; Compliance</h3>
                     <p>Ensure financial accuracy, internal controls, and regulatory compliance with confidence.</p>
@@ -89,7 +89,7 @@ include __DIR__ . '/header.php';
 
                 <article class="card product-card product-card-home">
                     <div class="media-frame product-media product-media-home">
-                        <img src="img/12.jpg" alt="Bookkeeping and financial modelling service">
+                        <img src="img/BookkeepingModelling.png" alt="Bookkeeping and financial modelling service">
                     </div>
                     <h3>Bookkeeping &amp; Financial Modelling</h3>
                     <p>Maintain accurate records and build data-backed models for smarter financial planning.</p>
@@ -103,7 +103,7 @@ include __DIR__ . '/header.php';
 
                 <article class="card product-card product-card-home">
                     <div class="media-frame product-media product-media-home">
-                        <img src="img/13.jpg" alt="Virtual CFO services">
+                        <img src="img/VirtualCFOServices.png" alt="Virtual CFO services">
                     </div>
                     <h3>Virtual CFO Services</h3>
                     <p>Professional CFO-level guidance to improve profitability, planning, and financial control.</p>
@@ -117,7 +117,7 @@ include __DIR__ . '/header.php';
 
                 <article class="card product-card product-card-home">
                     <div class="media-frame product-media product-media-home">
-                        <img src="img/14.jpg" alt="Financial health report service">
+                        <img src="img/FinancialHealthReport.png" alt="Financial health report service">
                     </div>
                     <h3>Financial Health Report</h3>
                     <p>Detailed analysis of financial performance with actionable recommendations for improvement.</p>

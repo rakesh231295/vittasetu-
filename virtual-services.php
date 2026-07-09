@@ -6,7 +6,7 @@ include __DIR__ . '/header.php';
 <main id="top" class="landing-page inner-page service-detail-page">
     <section class="section page-hero">
         <div class="page-hero-banner">
-            <img src="img/13.jpg" alt="Virtual CFO services and strategic finance support">
+            <img src="img/Virtual-breadcrumb.png" alt="Virtual CFO services and strategic finance support">
             <div class="page-hero-overlay">
                 <div class="container">
                     <div class="page-hero-center">
@@ -37,7 +37,7 @@ include __DIR__ . '/header.php';
                     </div>
                 </div>
                 <div class="media-frame service-detail-media">
-                    <img src="img/13.jpg" alt="Virtual CFO reviewing business finance strategy">
+                    <img src="img/CFO.png" alt="Virtual CFO reviewing business finance strategy">
                 </div>
             </div>
         </div>
@@ -174,7 +174,7 @@ include __DIR__ . '/header.php';
                         </div>
                     </div>
                     <div class="media-frame cta-main-media product-cta-media">
-                        <img src="img/16.jpg" alt="Strategic financial leadership and CFO advisory">
+                        <img src="img/Practical.png" alt="Strategic financial leadership and CFO advisory">
                     </div>
                 </div>
             </div>

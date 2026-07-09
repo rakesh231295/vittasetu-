@@ -6,7 +6,7 @@ include __DIR__ . '/header.php';
 <main id="top" class="landing-page inner-page service-detail-page">
     <section class="section page-hero">
         <div class="page-hero-banner">
-            <img src="img/15.jpg" alt="Need Loans">
+            <img src="img/Loans-breadcrumb.png" alt="Need Loans">
             <div class="page-hero-overlay">
                 <div class="container">
                     <div class="page-hero-center">

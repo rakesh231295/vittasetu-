@@ -6,7 +6,7 @@ include __DIR__ . '/header.php';
 <main id="top" class="landing-page inner-page service-detail-page">
     <section class="section page-hero">
         <div class="page-hero-banner">
-            <img src="img/10.jpg" alt="Internal audit and compliance review">
+            <img src="img/Internal-breadcrumb.png" alt="Internal audit and compliance review">
             <div class="page-hero-overlay">
                 <div class="container">
                     <div class="page-hero-center">
@@ -37,7 +37,7 @@ include __DIR__ . '/header.php';
                     </div>
                 </div>
                 <div class="media-frame service-detail-media">
-                    <img src="img/10.jpg" alt="Financial records and audit checklist review">
+                    <img src="img/Strengthen.png" alt="Financial records and audit checklist review">
                 </div>
             </div>
         </div>
@@ -174,7 +174,7 @@ include __DIR__ . '/header.php';
                         </div>
                     </div>
                     <div class="media-frame cta-main-media product-cta-media">
-                        <img src="img/18.jpg" alt="Compliance reporting and financial audit support">
+                        <img src="img/Detailed.png" alt="Compliance reporting and financial audit support">
                     </div>
                 </div>
             </div>
