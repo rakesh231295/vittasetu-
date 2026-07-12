@@ -1,4 +1,43 @@
 <?php
+if (session_status() === PHP_SESSION_NONE) {
+    session_start();
+}
+
+require_once __DIR__ . '/db.php';
+
+$m_mode = '0';
+$m_title = 'Scheduled Maintenance';
+$m_message = 'Vittasetu website is currently undergoing scheduled systems update. We will be back online shortly.';
+
+try {
+    $m_stmt = $pdo->query("SELECT `setting_key`, `setting_value` FROM `site_settings` WHERE `setting_key` IN ('maintenance_mode', 'maintenance_title', 'maintenance_message')");
+    $m_settings = [];
+    while ($m_row = $m_stmt->fetch(PDO::FETCH_ASSOC)) {
+        $m_settings[$m_row['setting_key']] = $m_row['setting_value'];
+    }
+    
+    if (isset($m_settings['maintenance_mode'])) {
+        $m_mode = $m_settings['maintenance_mode'];
+    }
+    if (isset($m_settings['maintenance_title'])) {
+        $m_title = $m_settings['maintenance_title'];
+    }
+    if (isset($m_settings['maintenance_message'])) {
+        $m_message = $m_settings['maintenance_message'];
+    }
+} catch (Throwable $e) {
+    $m_mode = '0';
+}
+
+if ($m_mode === '1' && !isset($_SESSION['admin_id'])) {
+    http_response_code(503);
+    header('Retry-After: 3600');
+    $maintenance_title = $m_title;
+    $maintenance_message = $m_message;
+    include __DIR__ . '/maintenance_page.php';
+    exit;
+}
+
 $page_title = $page_title ?? 'Vittasetu | Smart Loan Solutions';
 ?>
 <!DOCTYPE html>
@@ -25,6 +64,12 @@ $page_title = $page_title ?? 'Vittasetu | Smart Loan Solutions';
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+<?php if ($m_mode === '1' && isset($_SESSION['admin_id'])): ?>
+<div style="background: #c9a227; color: #0b1528; text-align: center; padding: 10px; font-weight: bold; position: sticky; top: 0; z-index: 99999; box-shadow: 0 4px 15px rgba(0,0,0,0.3); font-family: sans-serif; display: flex; justify-content: center; align-items: center; gap: 15px; font-size: 14px;">
+    <span><i class="fa-solid fa-screwdriver-wrench"></i> MAINTENANCE MODE ACTIVE &mdash; You are previewing the live website as an Administrator.</span>
+    <a href="admin/maintenance.php" style="background: #0b1528; color: #c9a227; padding: 5px 12px; border-radius: 4px; text-decoration: none; font-size: 13px; font-weight: bold;">Manage Settings</a>
+</div>
+<?php endif; ?>
 <div class="announce-bar">
     <div class="container announce-bar-inner">
         <span><i class="fa-solid fa-circle-check"></i> RBI Registered Partners</span>

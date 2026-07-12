@@ -257,7 +257,7 @@ include __DIR__ . '/header.php';
             <!-- Center Image -->
             <div class="health-center-image">
                 <!-- Using placeholder image to represent the central figure from mockup -->
-                <img src="img/14.jpg" alt="Financial Advisor" style="border-radius: 20px; object-fit: cover; height: 500px; width: 100%; box-shadow: 0 10px 30px rgba(0,0,0,0.1);">
+                <img src="img/health.png" alt="Financial Advisor" style="border-radius: 20px; object-fit: cover; height: 500px; width: 100%; box-shadow: 0 10px 30px rgba(0,0,0,0.1);">
             </div>
 
             <!-- Right Column -->

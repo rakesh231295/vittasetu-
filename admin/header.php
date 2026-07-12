@@ -66,6 +66,10 @@ $adminBasePath = rtrim(dirname($_SERVER['SCRIPT_NAME']), '/\\');
                 <i class="fa-solid fa-key"></i>
                 <span>Change Password</span>
             </a>
+            <a href="maintenance.php" class="<?php echo $currentPage === 'maintenance.php' ? 'active' : ''; ?>">
+                <i class="fa-solid fa-screwdriver-wrench"></i>
+                <span>Website Maintenance</span>
+            </a>
             <a href="../index.php" target="_blank">
                 <i class="fa-solid fa-arrow-up-right-from-square"></i>
                 <span>View Website</span>
