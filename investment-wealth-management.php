@@ -174,7 +174,7 @@ include __DIR__ . '/header.php';
                         </div>
                     </div>
                     <div class="media-frame cta-main-media product-cta-media">
-                        <img src="img/17.jpg" alt="Long-term investment and wealth planning support">
+                        <img src="img/risk.png" alt="Long-term investment and wealth planning support">
                     </div>
                 </div>
             </div>

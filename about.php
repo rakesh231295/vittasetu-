@@ -31,14 +31,14 @@ include __DIR__ . '/header.php';
             </div>
 
             <div class="grid-2" style="align-items:center;">
-                <div class="card" style="padding:30px;">
+                <div class="card" style="padding:50px;">
                     <p>Vittasetu Services Private Limited is a modern financial consulting company committed to delivering reliable, transparent, and customized financial solutions. Established in 2025, we bring together a team of seasoned Chartered Accountants and Company Secretaries with over 12 years of experience in SME and corporate banking.</p>
                     <div class="btn-row" style="margin-top:18px;">
                         <span class="info-chip">Established in 2025</span>
                         <span class="info-chip">12+ Years Experience</span>
                     </div>
                 </div>
-                <div class="media-frame" style="min-height:340px;">
+                <div class="media-frame">
                     <img src="img/5.jpg" alt="Company overview financial consultation">
                 </div>
             </div>
